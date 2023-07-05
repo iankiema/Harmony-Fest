@@ -87,7 +87,7 @@ In order to run this project you need:
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](git clone git@github.com:iankiema/Harmony-Fest.gitgit/Harmony-Fest/)
+- [Live Demo Link](https://iankiema.github.io/Harmony-Fest/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +100,7 @@ Run this commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:iankiema/My-Personal-Portifolio.git
+  git clone git@github.com:iankiema/Harmony-Fest.git
 ```
 
 ### Install
