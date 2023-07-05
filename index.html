@@ -38,20 +38,26 @@
                 <input type="button" value="CC Campaign">
             </div>
 
-            <div id="mySidebar" class="sidebar">
-                <a href="javascript:void(0)" class="close-btn" id="close-btn">&times</a>
-                <a href="about.html" id="menu-link">About</a>
-                <a href="" id="menu-link">Program</a>
-                <a href="" id="menu-link">Join</a>
-                <a href="" id="menu-link">Sponsor</a>
-                <a href="" id="menu-link">News</a>
-            </div>
+            <div id="mobileLinks" class="mobileLinks">
+                <div class="cancel-btn">
+                    <img src="images/Icon-Cancel.svg" id="cancel-icon">
+                </div>
+                <div id="mob-link">
+                    <a href="about.html" >About</a>
+                    <a href="" >Program</a>
+                    <a href="" >Join</a>
+                    <a href="" >Sponsor</a>
+                    <a href="" >News</a>
+                </div>
 
+            </div>
+            <a href="javascript:void(0)" class="bar-menu"><i class="fas fa-bars" id="menu-bar"></i></a>
         </nav>
 
-            <a href="javascript:void(0)" class="menubar" id="menubar"><i class="fa-sharp fa-solid fa-bars" id="menu-open"></i></a>
+
 
         <main class="main-content">
+
             <div class="bg-image"></div>
             <div class="main-info">
                 <p class="slogan">"Synchronize Your Senses, Experience Musical Unity"</p>
@@ -105,76 +111,24 @@
         <div class="featured-speakers">
             <h2>Featured Speakers</h2>
             <div class="featured-border"></div>
-            <div class="speaker-div">
-                <div class="speaker-container">
-                    <img class="pattern" src="images/pattern.jpg" alt="">
-                    <div class="speaker-img">
-                        <img src="images/speaker1.jpg" alt="">
-                    </div>
-                    <div class="speaker-info">
-                        <h3>John Davis</h3>
-                        <p class="speaker-description">Music Producer and Founder of a Record Label</p>
-                        <p class="speaker-bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, quia.</p>
-                    </div>
-                </div>
-                <div class="speaker-container">
-                    <img class="pattern" src="images/pattern.jpg" alt="">
-                   <div class="speaker-img">
-                        <img src="images/speaker2.jpg" alt="">
-                    </div>
-                    <div class="speaker-info">
-                        <h3>John Davis</h3>
-                        <p class="speaker-description">Music Producer and Founder of a Record Label</p>
-                        <p class="speaker-bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, quia.</p>
-                    </div>
-                </div>
-                <div class="speaker-container">
-                    <img class="pattern" src="images/pattern.jpg" alt="">
-                   <div class="speaker-img">
-                        <img src="images/speaker3.jpg" alt="">
-                    </div>
-                    <div class="speaker-info">
-                        <h3>John Davis</h3>
-                        <p class="speaker-description">Music Producer and Founder of a Record Label</p>
-                        <p class="speaker-bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, quia.</p>
-                    </div>
-                </div>
-                <div class="speaker-container">
-                    <img class="pattern" src="images/pattern.jpg" alt="">
-                   <div class="speaker-img">
-                        <img src="images/speaker4.jpg" alt="">
-                    </div>
-                    <div class="speaker-info">
-                        <h3>John Davis</h3>
-                        <p class="speaker-description">Music Producer and Founder of a Record Label</p>
-                        <p class="speaker-bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, quia.</p>
-                    </div>
-                </div>
-                <div class="speaker-container">
-                    <img class="pattern" src="images/pattern.jpg" alt="">
-                   <div class="speaker-img">
-                        <img src="images/speaker5.jpg" alt="">
-                    </div>
-                    <div class="speaker-info">
-                        <h3>John Davis</h3>
-                        <p class="speaker-description">Music Producer and Founder of a Record Label</p>
-                        <p class="speaker-bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, quia.</p>
-                    </div>
-                </div>
-                <div class="speaker-container">
-                    <img class="pattern" src="images/pattern.jpg" alt="">
-                   <div class="speaker-img">
-                        <img src="images/speaker6.jpg" alt="">
-                    </div>
-                    <div class="speaker-info">
-                        <h3>John Davis</h3>
-                        <p class="speaker-description">Music Producer and Founder of a Record Label</p>
-                        <p class="speaker-bio">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis, quia.</p>
-                    </div>
-                </div>
 
+            <div class="speaker-div" id="speaker-div">
 
             </div>
+        </div>
+
+        <div class="mobile-featured-speakers" id="mobile-featured-speakers">
+            <h2>Featured Speakers</h2>
+            <div class="featured-border"></div>
+
+            <div class="mobile-speaker-div" id="mobile-speaker-div">
+
+            </div>
+
+            <div class="more-speaker-div" id="more-speaker-div"></div>
+
+            <button class="featuredBtn" id="featuredBtn">Show More  <i id="toggleIcon" class="fas fa-angle-down"></i></button>
+
         </div>
 
         <div class="partners-container">
