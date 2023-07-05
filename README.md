@@ -5,7 +5,7 @@
   <img src="images/Cizzla_logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Harmony Fest README Template</b></h3>
+  <h3><b>Harmony Fest: README Template</b></h3>
 
 </div>
 
