@@ -16,6 +16,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -35,6 +36,8 @@
 
 
 **Harmony Fest** Harmony Fest is an exciting and innovative online platform that celebrates the beauty of music and brings together music enthusiasts from all around the world
+
+- [About Harmony Fest Link](https://www.loom.com/share/b43a68ea26c14924b051575ea4b4d91f?sid=f6d00690-3e6a-4404-aede-9b3d89dbf301)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -81,6 +84,13 @@ In order to run this project you need:
     <li>Css Knowledge</li>
     <li>Local file storage</li>
 </ul>
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://iankiema.github.io/Harmony-Fest/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Setup
 
