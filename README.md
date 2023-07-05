@@ -176,7 +176,7 @@ If you like this project give it a star⭐️.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse for the overwhelming support and also thank Faiz Mohammad for assisting me in this project.
+I would like to thank Microverse for the overwhelming support and also give credit to Cindy Shin the author of the original design for giving me an overview in this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

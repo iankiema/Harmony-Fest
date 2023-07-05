@@ -389,16 +389,15 @@ header {
 
 .partners-container {
   width: 100%;
-  height: 60vh;
 }
 
 .partners {
-  height: 50%;
   background: var(--background-color);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  padding: 30px 20px;
 }
 
 .partners p {
@@ -427,7 +426,7 @@ header {
 
 .about-end {
   display: flex;
-  height: 50%;
+  height: 20vh;
 }
 
 .about-end-logo {
