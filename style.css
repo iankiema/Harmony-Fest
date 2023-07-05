@@ -23,7 +23,6 @@ header {
   display: flex;
   flex-direction: column;
   width: 100%;
-  min-height: 100vh;
 }
 
 .cancel-btn i {
@@ -642,6 +641,7 @@ header {
   }
 
   .about-end {
+    display: none;
     align-items: center;
     height: 30%;
   }
