@@ -25,6 +25,11 @@ header {
   width: 100%;
 }
 
+#home {
+  z-index: 30;
+  box-shadow: 0 0 10px 0;
+}
+
 .cancel-btn i {
   width: 24px;
   height: 24px;
@@ -188,6 +193,16 @@ header {
 .slogan {
   color: var(--primary-color);
   font-size: 30px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content-main {
+  padding-top: 150px;
 }
 
 .main-info {

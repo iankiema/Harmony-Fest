@@ -3,6 +3,18 @@ const menuOpen = document.querySelector('#menu-bar');
 const closeBtn = document.querySelector('#cancel-icon');
 const menuLinks = document.querySelector('#mob-link');
 let isOpen = false;
+const navBar = document.querySelector('#home');
+
+const sticky = navBar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    navBar.classList.add('sticky');
+  } else {
+    navBar.classList.remove('sticky')
+  }
+}
+window.onscroll = () => { myFunction(); };
 
 function openNav() {
   if (!isOpen) {
