@@ -18,6 +18,11 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+#home {
+  z-index: 30;
+  box-shadow: 0 0 10px 0;
+}
+
 header {
   position: relative;
   display: flex;
@@ -155,6 +160,16 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .headline-section {
+  padding-top: 140px;
 }
 
 .main-content {
