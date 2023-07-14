@@ -11,7 +11,7 @@ function myFunction() {
   if (window.pageYOffset > sticky) {
     navBar.classList.add('sticky');
   } else {
-    navBar.classList.remove('sticky')
+    navBar.classList.remove('sticky');
   }
 }
 window.onscroll = () => { myFunction(); };
